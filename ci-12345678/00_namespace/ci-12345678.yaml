@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  annotations:
+  openshift.io/description: |
+    Test Project 1
+  openshift.io/display-name: Test-Project-1
+  name: ci-12345678
+spec:
+finalizers:
+- kubernetes
