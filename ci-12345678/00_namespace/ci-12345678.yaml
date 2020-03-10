@@ -3,8 +3,8 @@ kind: Namespace
 metadata:
   annotations:
   openshift.io/description: |
-    Test Project 1 bla
-  openshift.io/display-name: Test-Project-1 bla
+    Test Project 1
+  openshift.io/display-name: Test-Project-1
   name: ci-12345678
 spec:
 finalizers:
