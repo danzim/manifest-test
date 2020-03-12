@@ -6,6 +6,3 @@ metadata:
     Test Project 1
   openshift.io/display-name: Test-Project-1
   name: ci-12345678
-spec:
-finalizers:
-- kubernetes
