@@ -2,9 +2,9 @@ apiVersion: v1
 kind: Namespace
 metadata:
   annotations:
-  openshift.io/description: |
-    Test Project 2
-  openshift.io/display-name: Test-Project-2
+    openshift.io/description: |
+      Test Project 2
+    openshift.io/display-name: Test-Project-2
   name: ci-87654321
 spec:
   finalizers:
