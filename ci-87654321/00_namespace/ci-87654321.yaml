@@ -7,5 +7,5 @@ metadata:
   openshift.io/display-name: Test-Project-2
   name: ci-87654321
 spec:
-finalizers:
-- kubernetes
+  finalizers:
+  - kubernetes
