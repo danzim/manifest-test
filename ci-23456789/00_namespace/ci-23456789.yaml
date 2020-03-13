@@ -1,6 +1,20 @@
 apiVersion: v1
 kind: Namespace
 metadata:
+  annotations:
+    openshift.io/description: |
+      Test Project 1
+    openshift.io/display-name: Test-Project-1
+  name: ci-23456789
+spec:
+  finalizers:
+  - kubernetesapiVersion: v1
+kind: Namespace
+metadata:
+  annotations:
+    openshift.io/description: |
+      This is a Description for second ci
+    openshift.io/display-name: Second-Test-CI
   name: ci-23456789
 spec:
   finalizers:
