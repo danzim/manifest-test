@@ -7,16 +7,16 @@ spec:
   limits:
   - type: Pod 
     max:
-      cpu:
-      memory:
+      cpu: "1"
+      memory: "1Gi"
   - type: Container 
     default:
-      cpu:
-      memory:
+      cpu: "1"
+      memory: "1Gi"
     defaultRequest:
-      cpu:
-      memory:
+      cpu: "50"
+      memory: "512Mi"
     max:
-      cpu:
-      memory:
+      cpu: 1
+      memory: 1Gi
     
