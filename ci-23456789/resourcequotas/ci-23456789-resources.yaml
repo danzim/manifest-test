@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: ci-23456789-resources
+  namespace: ci-23456789
+spec:
+  hard:
+    cpu: "2"
+    memory: "2000Mi"
+  scopes:
+  - NotTerminating
